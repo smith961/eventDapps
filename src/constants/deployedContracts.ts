@@ -1,5 +1,5 @@
 export const ventura = {
-  address: "0x97D9bcE273974455Bfc3A51E8Fd956D4209066A3",
+  address: "0xBbcD22fd30EFA3c859f3C30a7224aB257D20b112",
   abi: [
     {
       inputs: [
@@ -522,7 +522,7 @@ export const ventura = {
 };
 
 export const token = {
-  address: "0xBbcD22fd30EFA3c859f3C30a7224aB257D20b112",
+  address: "0x442576ef8EA93B6aA30cb7C779b8cC1e402bca5e",
   abi: [
     {
       inputs: [{ internalType: "address", name: "_owner", type: "address" }],
@@ -888,7 +888,7 @@ export const token = {
 };
 
 export const stableCoin = {
-  address: "0x442576ef8EA93B6aA30cb7C779b8cC1e402bca5e",
+  address: " 0x94b38F87880912aa4F46b4A7631315B933f67A2c",
   abi: [
     {
       inputs: [{ internalType: "address", name: "owner", type: "address" }],
