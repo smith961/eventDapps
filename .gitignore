@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Verifying deployed contracts
+
+- Verifying contract "contracts/StableToken.sol:StableToken" for network scrollSepolia...
+Contract contracts/StableToken.sol:StableToken already verified on network scrollSepolia:
+https://sepolia.scrollscan.com//address/0x442576ef8EA93B6aA30cb7C779b8cC1e402bca5e#code
+
+Verifying contract "contracts/VenturaTokens.sol:VenturaTokens" for network scrollSepolia...
+Contract contracts/VenturaTokens.sol:VenturaTokens already verified on network scrollSepolia:
+https://sepolia.scrollscan.com//address/0xBbcD22fd30EFA3c859f3C30a7224aB257D20b112#code
+
+- Verifying contract "contracts/Ventura.sol:Ventura" for network scrollSepolia...
+Successfully verified contract "contracts/Ventura.sol:Ventura" for network scrollSepolia:
+https://sepolia.scrollscan.com//address/0x97D9bcE273974455Bfc3A51E8Fd956D4209066A3#code
