@@ -24,10 +24,9 @@ const config: HardhatUserConfig = {
       accounts: [`0x${vars.get("PRIVATE_KEY")}`],
     },
   },
+
   etherscan: {
-    apiKey: {
-      arbitrumSepolia: ARB_SCAN_API,
-    },
+    apiKey: ARB_SCAN_API,
     customChains: [
       {
         network: "arbitrumSepolia",
