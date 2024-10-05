@@ -18,7 +18,7 @@ const Home = () => {
       <div className="relative flex flex-col items-center justify-center w-full min-h-screen px-3 overflow-hidden bg-background">
         <div className="text-center">
           {/* Heading with the last two words in purple */}
-          <h1 className="-mt-32 pt-30 text-5xl font-bold text-black md:text-8xl">
+          <h1 className="-mt-32 pt-36 text-5xl font-bold text-black md:text-8xl">
             Welcome to the ultimate event experience on{" "}
             <span className="text-purple-600">Eventos platform</span>
           </h1>
