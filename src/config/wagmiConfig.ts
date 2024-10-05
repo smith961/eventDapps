@@ -1,6 +1,6 @@
 import { createConfig, http } from "@wagmi/core";
 import { connectorsForWallets } from "@rainbow-me/rainbowkit";
-import { scrollSepolia } from "@wagmi/core/chains";
+// import { scrollSepolia } from "@wagmi/core/chains";
 import {
   rainbowWallet,
   metaMaskWallet,
