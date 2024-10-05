@@ -7,6 +7,7 @@ import {
   coinbaseWallet,
   walletConnectWallet,
 } from "@rainbow-me/rainbowkit/wallets";
+import { arbitrumSepolia } from "viem/chains";
 
 
 
@@ -25,11 +26,11 @@ const connectors = connectorsForWallets(
 );
 
 export const wagmiConfig = createConfig({
-  chains: [scrollSepolia],
+  chains: [arbitrumSepolia],
   connectors,
   transports: {
-    [scrollSepolia.id]: http(
-      "https://scroll-sepolia.g.alchemy.com/v2/OWk1batiAD_4Hsrf9bFSiFXhzTovXIbd"
+    [arbitrumSepolia.id]: http(
+      "https://arb-sepolia.g.alchemy.com/v2/PP5-km-xd8s0Ui0FrVxyBSEfD_UhS0e9"
     ),
   },
 });
